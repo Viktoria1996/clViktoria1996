@@ -1,0 +1,53 @@
+.rezept {
+    width: 100%;
+    text-align: center;
+}
+
+.nazvrezept {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 6px;
+    color: #EF7F00;
+}
+
+.ingredientrezept { width: 40%;
+    margin: 5px auto;
+    text-align: left;
+    font-size: 130%;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;}
+
+.fotorezept img {
+    width: 40%;
+    margin: 4px auto;
+    border: 4px solid transparent;
+    -webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+    -o-border-image: -o-linear-gradient(top left, #FFDE00, #F67E00 100%);
+       border-image: -webkit-gradient(linear, left top, right bottom, from(#FFDE00), to(#F67E00));
+       border-image: linear-gradient(to bottom right, #FFDE00, #F67E00 100%);
+    border-image-slice: 1;
+    text-align: center;
+}
+
+.textrezept {
+    width: 40%;
+    margin: 5px auto;
+    text-align: left;
+    font-size: 130%;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.textrezept li {
+    margin: 5px;
+}

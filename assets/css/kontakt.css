@@ -1,0 +1,36 @@
+#gmap_canvas img {
+    max-width: none!important;
+    background: none!important
+}
+
+.karta {
+    margin: 50px auto;
+}
+
+main h3 {
+    text-align: left;
+    font-size: 150%;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 10px 15px 200px;
+    color: #EF7F00;
+}
+
+main p {
+    text-align: left;
+    font-size: 120%;
+    font-weight: 400;
+    font-style: italic;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px 0px 5px 200px;
+    color: #884600;
+}
+
+main a {
+    color: #884600;
+}
