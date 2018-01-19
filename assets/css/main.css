@@ -121,9 +121,7 @@ footer {
     -webkit-box-shadow: 0 15px 20px rgba(246, 126, 0, .4);
     box-shadow: 0 15px 20px rgba(246, 126, 0, .4);
     color: white;
-    -webkit-transform: translateY(-7px);
-    -ms-transform: translateY(-7px);
-    transform: translateY(-7px);
+     transform: scale(1.1);
 
 }
 
@@ -270,28 +268,22 @@ div.svaz a:hover {
     background-image: repeating-linear-gradient(45deg, var(--t) 0, var(--t) 32px, var(--c) 32px, var(--c) 44px, var(--t) 44px, var(--t) 56px, var(--c) 56px, var(--c) 68px, var(--t) 0), repeating-linear-gradient(-45deg, var(--t) 0, var(--t) 32px, var(--c) 32px, var(--c) 44px, var(--t) 44px, var(--t) 56px, var(--c) 56px, var(--c) 68px, var(--t) 0), linear-gradient(to bottom left, #FFDE00, #F67E00);
 }
 
-div.poisk {
-    background-color: rgba(255, 128, 0, 0.5);
-    width: 100%;
-    margin-top: em;
-    text-align: center;
-    text-decoration: none;
-    padding: 20px 30px;
-    display: inline-block;
-
-    color: white;
-    border: 1px solid rgba(255, 255, 255, .4);
-    font-size: 200%;
-    font-weight: 300;
-    font-family: Georgia, serif;
-    font-style: italic;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.poisk {
+     background-color: rgba(255, 128, 0, 0.5);  
+   text-align: center;
+   padding: 20px 30px;
+   color: white;
+   border: 1px solid rgba(255, 255, 255, .4);
+   font-size: 200%;
+   font-weight: 300;
+   font-family: Georgia, serif;
+   font-style: italic;
+   text-transform: uppercase;
+   letter-spacing: 2px;
 }
 
-}
 
-div.menu {
+.menu {
     width: 100em;
     height: auto;
     padding: 0.3em;
@@ -309,7 +301,7 @@ div.menu {
     letter-spacing: 1px;
 }
 
-div.info {
+.info {
     width: 110em;
     height: auto;
     font-style: italic;
