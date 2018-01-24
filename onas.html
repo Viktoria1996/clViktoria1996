@@ -3,87 +3,88 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Главная</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
     <link rel="shortcut icon" href="assets/img/fff-weather_sun.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
     <link rel="stylesheet" href="assets/css/right-nav-style.css">
-    <link rel="stylesheet" href="assets/fotorama-4.6.4/fotorama.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="assets/fotorama-4.6.4/fotorama.js"></script>
+
+
 </head>
 
 <body>
-    <div class="wrapper"></div>
     <header>
         <div id="he1">
             <div class="burger"><input type="checkbox" id="nav-toggle" hidden>
                 <nav class="nav">
                     <label for="nav-toggle" class="nav-toggle" onclick></label>
                     <h2 class="log">
-                        <a title="Переход на главную страницу" href="index.html"><img alt="Логотип Солнышко" src="assets/img/fonts.png"></a>
+                        <a title="Переход на главную страницу" href="index.html"><img alt="" src="assets/img/fonts.png"></a>
                     </h2>
                     <ul class="r-menu">
                         <li><a title="Переход на главную страницу" href="index.html">Главная</a></li>
                         <li><a title="Продукция" href="prod.html">Продукция</a></li>
                         <li><a title="Рецепты" href="rezept.html">Рецепты</a></li>
                         <li><a title="Наши партнеры" href="partner.html">Наши партнеры</a></li>
-                         <li><a title="О нас" href="onas.html">О нас</a></li>
+                        <li><a title="О нас" href="onas.html">О нас</a></li>
                         <li><a title="Контакты" href="kontakt.html">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
-            <div id="logo" class="menu"><a title="Переход на главную страницу" href="index.html"><img alt="Логотип Солнышко" src="assets/img/logo.png"></a></div>
+            <div id="logo" class="menu"><a title="Переход на главную страницу" href="index.html"><img alt="Логотип" src="assets/img/logo.png"></a></div>
             <div class="navigation">
                 <ul>
-                    <li id="active"><a title="Переход на главную страницу" href="index.html">Главная</a></li>
+                    <li><a title="Переход на главную страницу" href="index.html">Главная</a></li>
                     <li><a title="Продукция" href="prod.html">Продукция</a></li>
                     <li><a title="Рецепты" href="rezept.html">Рецепты</a></li>
                     <li><a title="Наши партнеры" href="partner.html">Наши партнеры</a></li>
-                    <li><a title="О нас" href="kontakt.html">О нас</a></li>
+                    <li id="active"><a title="О нас" href="onas.html">О нас</a></li>
                     <li><a title="Контакты" href="kontakt.html">Контакты</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <div class="rezept">
-            <div class="fotorama" data-autoplay="true">
-                <img alt="Тарталетки с икрой" src="assets/img/IMG_5839.JPG">
-                <img alt="Торт со сгущенкой и обсыпкой" src="assets/img/IMG_5798.JPG">
-                <img alt="Сладкие тарталетки с кремом" src="assets/img/IMG_5865.JPG">
+        <div class="polosa"></div>
+
+        <div class="prod"> О нас</div>
+        <div class="obertka">
+            <div id="tart">
+                <img alt="Линия производства" src="assets/img/tart.jpg">
+                <img alt="Линия производства" src="assets/img/IMG_5768.JPG">
+            </div>
+
+            <div class="textinfo">
+                <p> Наша компания работает на рынке Беларуси более 25 лет.</p>
+                <p> Являемся ведущим производителем тарталеток и вафельных коржей на территории РБ. </p>
+                <p> При производстве нашей продукции используются только натуральные и высококачественные ингридиенты, что является нашим конкурентным преимуществом. </p>
+                <p> Высококвалифицированный персонал и современное оборудование позволяет приблизить качество нашего продукта к идеальному.</p>
+                <p> Мы сотрудничаем с крупнейшими торговыми сетями: Евроопт, Простор, Корона, Алми, Виталюр, Белмаркет, Спар, Грин, Келби и др.</p>
+                <p> Миллионы покупателей ежедневно находят нашу продукцию на полках супермаркетов, рынков и других торговых точек.</p>
+                <p> Для домашних меню белорусов традиционными стали торт из вафельных листов, корзинки с шоколадом, тарталетки и другие блюда на вафельной основе.</p>
+                <p> Хозяек привлекает простота рецептов и неограниченный выбор начинок. </p>
+                <p>Мы применяем указанные требования в отношении производства вафельных и песочных изделий.</p>
+                <p> Длительный срок хранения и высокий спрос на наши изделия привлекают и зарубежные компании. </p>
+                <p>Крупные производственные мощности позволяют обеспечить экспорт вафельной продукции в Россию, Грузию, Литву, Молдавию и Польшу.</p>
+                <p> Из коржей делают вафли в шоколадной глазури и вафли со сгущенкой, вафельные конусы используются для производства пирожных, а вафельная крошка – как декор для разнообразных сладостей.</p>
+                <p> Вафельные стаканчики и вафельные рожки компании востребованы производителями мороженого. Ресторанно-гостиничный бизнес также выигрывает с нашими полуфабрикатами.</p>
+                <p>Хит продаж – тарталетки для фуршетов, упрощающие организацию банкетов и шведского стола.</p>
+                <p>С нами партнерство – всегда взаимовыгодно и перспективно.</p>
+                <p>Миссия компании: &laquo;Бережное использование времени, сил и энергоресурсов жителей нашей планеты&raquo;</p>
             </div>
         </div>
-        <div class="svaz">
-            <div class="svaz" id="pismo"><a title="Здесь Вы найдете наши контакты" href="kontakt.html">Свяжитесь с нами</a></div>
-            <div class="svaz" id="client"><a title="Наши партнеры" href="partner.html">Стать клиентом</a></div>
-        </div>
+
         <div class="polosa"> </div>
-        <div>
-            <div class="poisk"> Вы можете найти нашу продукцию:</div>
-            <div class="icon">
-                <div class="seti"><img alt="логотип лого магазин Евроопт" src="assets/img/evroopt.png">
-                </div>
-                <div class="seti"><img alt="логотип лого магазин Корона" src="assets/img/korona.png">
-                </div>
-                <div class="seti"><img alt="логотип лого магазин Алми" src="assets/img/almi.png">
-                </div>
-                <div class="seti"><img alt="логотип лого магазин Виталюр" src="assets/img/vitalyr.png">
-                </div>
-                <div class="seti"><img alt="логотип лого магазин Белмаркет" src="assets/img/belmarket.png">
-                </div>
-                <div class="seti"><img alt="логотип лого магазин Простор" src="assets/img/prostore.png">
-                </div>
-            </div>
-        </div>
     </main>
     <footer id="myFooter">
         <div>
             <div class="row">
                 <div class="col-sm-3">
-                    <div id="logotip"><a title="Переход на главную страницу" href="index.html"><img  alt="Логотип Солнышко" src="assets/img/logo.png"></a></div>
+                    <div id="logotip"><a title="Переход на главную страницу" href="index.html"><img  alt="Логотип" src="assets/img/logo.png"></a></div>
                 </div>
                 <div class="col-sm-1">
                     <h5>Меню</h5>
@@ -99,17 +100,21 @@
                 <div class="col-sm-2">
                     <h5>Контакты:</h5>
                     <ul>
-                        <li>Телефон: <div>+375 (29) 623-77-15</div><div>+375 (17) 310-50-23</div></li>
+                        <li>Телефон:
+                            <div>+375 (29) 623-77-15</div>
+                            <div>+375 (17) 310-50-23</div>
+                        </li>
                         <li> e-mail: piankovskaia@mail.ru </li>
                     </ul>
                 </div>
+
                 <div class="col-sm-4">
                     <div class="social-networks">
                         <a title="Твиттер" href="https://twitter.com/?lang=ru" class="twitter"><i class="fa fa-twitter"></i></a>
                         <a title="Facebook" href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a title="Gogle" href="https://www.google.ru/" class="google"><i class="fa fa-google-plus"></i></a>
                     </div>
-                    <div class="btn btn-default"> <a title="Напишите нам" href="#zatemnenie">Свяжитесь с нами</a></div>
+                    <div class="btn btn-default"> <a title="Наши партнеры" href="#zatemnenie">Свяжитесь с нами</a></div>
                 </div>
             </div>
         </div>

@@ -27,7 +27,6 @@ audio:not([controls]) {
 [hidden] {
     display: none;
 }
-
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -76,13 +75,6 @@ mark {
     color: #000;
 }
 
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, serif;
-    font-size: 1em;
-}
 
 pre {
     white-space: pre-wrap;

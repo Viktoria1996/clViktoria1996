@@ -143,3 +143,9 @@ form .button:hover {
 @media screen and (max-width: 470px){
 	.col, .col-2 { float: none !important; width: 100% !important;}
 }
+@media screen and (max-width: 767px) {
+    .seti img {
+        margin: 15px;
+    }
+
+}
